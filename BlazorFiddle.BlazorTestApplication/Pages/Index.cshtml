@@ -1,0 +1,14 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<BlazorFiddle Template="MatBlazor" Code=@(@"<input type=""checkbox"" checked=""@IsCompleted"" />
+
+@functions {
+    [Parameter]
+    private bool IsCompleted { get; set; }
+}
+")>
+</BlazorFiddle>
